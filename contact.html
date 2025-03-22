@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Esha Farms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #03364c;
+            color: #fdfafe;
+            padding: 10px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 200;
+        }
+
+        .navbar ul { list-style-type: none; display: flex; }
+        .navbar li { margin-right: 20px; }
+        .navbar a {
+            color: white;
+            background-color: limegreen;
+            padding: 8px;
+            border-radius: 10px;
+            text-decoration: none;
+            border: 1px solid silver;
+        }
+
+        .navbar a:hover { background-color: blue; }
+
+        .contact-section {
+            width: 100vw;
+            height: 93vh;
+            background-image: url('C:/Users/srija/OneDrive/Pictures/Saved Pictures/my files/contact.avif');
+            background-size: cover;
+            background-position: center;
+            padding-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .contact-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            background-color: rgba(129, 248, 240, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin-top: 1%;
+            margin-left: 15%;
+            border: 2px solid slategrey;
+            border-radius: 10px;
+            
+        }
+
+        .form-box, .contact-info {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .form-box input, .form-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-box button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: #0774a3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-box button:hover { background-color: #055e82; }
+
+        .contact-info {
+            background-color: lightpink;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+        }
+
+        .contact-info h2 { text-align: center; color: #0774a3; }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Esha Farms..!!</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="form-box">
+                <h2>Contact Us</h2>
+                <form>
+                    <label>Name:</label>
+                    <input type="text" placeholder="Your Name" required>
+                    <label>Email:</label>
+                    <input type="email" placeholder="Your Email" required>
+                    <label>Message:</label>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Esha Farms Lane, City, Country</p><br>
+                <p><i class="fas fa-envelope"></i> info@eshafarms.com</p><br>
+                <p><i class="fas fa-phone"></i> +1 (234) 567-8901</p><br>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Esha Farms. All rights reserved.</p>
+    </footer>
+</body>
+</html>

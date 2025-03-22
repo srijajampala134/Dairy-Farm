@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esha Farms</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .navbar {
+            position: absolute; /* Position the navbar absolutely */
+            top: 0; /* Align it to the top */
+            left: 0; /* Align it to the left */
+            width: 100%; /* Make it full width */
+            background-color: #03364c;
+            color: rgb(253, 250, 254); /* Change heading color to white for better visibility */
+            padding: 10px;
+            height: 60px; /* Set height of the navbar */
+            display: flex;
+            align-items: center; /* Center content vertically */
+            justify-content: space-between;
+            z-index: 200; /* Ensure it appears above the video */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+        }
+        .navbar img {
+    height: 50px;
+    width: 10%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar a {
+            color: white; /* Change link color to white for better visibility */
+            background-color: limegreen;
+            padding: 8px;
+            border: 1px solid silver;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: blue; /* Change background color to blue on hover */
+        }
+
+        .hero-section {
+            display: block; /* Allow block display */
+            padding: 14px; /* Increased padding for a more spacious layout */
+            text-align: center;
+            background-color: rgba(197, 242, 248, 0.8); /* Updated background color with transparency */
+            border: 2px solid rgb(156, 186, 199);
+            border-radius: 10px; /* More rounded corners */
+            position: absolute; /* Position it over the video */
+            left: 0; /* Align to the left */
+            top: 0; /* Align to the top */
+            width: 40%; /* Set width to 100% */
+            z-index: 10; /* Ensure it appears above the video */
+            margin-top: 18%; /* Remove margin to prevent pushing out of view */
+            min-height: 200px; /* Set a minimum height to ensure visibility */
+            margin-left: 5%;
+            margin-right: 65%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+
+        .hero-section h1 {
+            color: #0774a3; /* Change to white for better contrast */
+            font-size: 2.5em; /* Increased font size for prominence */
+        }
+
+        .hero-section p {
+            color: #330b0b; /* Change to white for better contrast */
+            font-size: 1.3em; /* Increased font size for better visibility */
+            font-style: oblique;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .cta-buttons {
+            margin-top: 20px; /* Space above the buttons */
+        }
+
+        .cta-buttons button {
+            background-color: #0288d1; /* Updated button background color */
+            color: white; /* White text color */
+            border: none; /* No border */
+            padding: 10px 20px; /* Padding for buttons */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            margin: 5px; /* Margin between buttons */
+        }
+
+        .cta-buttons button:hover {
+            background-color: #0277bd; /* Updated hover color for buttons */
+        }
+
+        footer {
+            background: rgba(53, 66, 74, 0.7); /* Semi-transparent background */
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted class="background-video">
+<source src="file:///C:/Users/srija/Videos/Captures/milk%20farm.mp4" type="video/mp4">
+
+        Your browser does not support the video tag.
+    </video>
+    
+    <nav class="navbar">
+        <img src="C:\Users\srija\OneDrive\Pictures\Saved Pictures\my files\eshafarmslogo.webp" alt="Esha Farms Logo" >
+        <h1>Esha Farms</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="hero-section">
+        <h1>Welcome to Esha Farms</h1>
+        <p>Your source for the freshest organic dairy products, delivered with care.</p>
+        <div class="cta-buttons">
+            <a href="shopnow.html">
+                <button>Shop Now</button>
+            </a>
+            
+        </div>
+        
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Esha Farms. All rights reserved.</p>
+    </footer>
+    
+    <script>
+ 
+    </script>
+</body>
+</html>

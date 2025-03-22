@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Esha Farms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .navbar {
+            background-color: #03364c;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+        }
+        .navbar li {
+            margin-right: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            background-color: limegreen;
+            border-radius: 10px;
+        }
+        .navbar a:hover {
+            background-color: blue;
+        }
+        .product-card {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .product-card h3 {
+            margin-bottom: 15px;
+        }
+        .order-button {
+            background-color: #0288d1;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .order-button:hover {
+            background-color: #0277bd;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Esha Farms</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="text-center mb-4">Shop Dairy Products</h1>
+    <div class="container">
+        <div class="product-card">
+            <h3>Milk</h3>
+            <img src="C:\Users\srija\OneDrive\Pictures\Saved Pictures\my files\milk.jpeg" alt="Milk" style="height:150px; width:100%; object-fit:cover;
+             border: 1px solid silver; border-radius: 8px; margin-bottom:10px;">
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="product-card">
+            <h3>Curd</h3>
+            <img src="C:\Users\srija\OneDrive\Pictures\Saved Pictures\my files\curd.jpeg" alt="Curd" style="height:150px; width:100%; object-fit:cover;
+             border: 1px solid silver; border-radius: 8px; margin-bottom:10px;">
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="product-card">
+            <h3>Butter</h3>
+            <img src="C:\Users\srija\OneDrive\Pictures\Saved Pictures\my files\butter.jpeg"alt="Butter" style="height:150px; width:100%; object-fit:cover;
+             border: 1px solid silver; border-radius: 8px; margin-bottom:10px;">
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="product-card">
+            <h3>Ghee</h3>
+            <img src="C:\Users\srija\OneDrive\Pictures\Saved Pictures\my files\ghee.jpeg" alt="Ghee" style="height:150px; width:100%; object-fit:cover;
+             border: 1px solid silver; border-radius: 8px; margin-bottom:10px;">
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="product-card">
+            <h3>Paneer</h3>
+            <img src="C:\Users\srija\OneDrive\Pictures\Saved Pictures\my files\paneer.jpeg" alt="Paneer" style="height:150px; width:100%; object-fit:cover; margin-bottom:10px;
+             border: 1px solid silver; border-radius: 8px;">
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="product-card">
+            <h3>Khova</h3>
+            <img src="C:\Users\srija\OneDrive\Pictures\Saved Pictures\my files\khova.jpeg" alt="Cova" style="height:150px; width:100%; object-fit:cover; margin-bottom:10px;
+            border: 1px solid silver; border-radius: 8px;">
+            <button class="order-button">Order Now</button>
+        </div>
+    </div>
+</body>
+</html>
